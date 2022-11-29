@@ -24,6 +24,15 @@
     transition: all 0.3s ease-out;
 }
 
+.btn--blue {
+    background-color: #0f6cb3;
+    color: #fff;
+    width: 100%;
+    padding: 8px 20px;
+    border: 1px solid var(#0f6cb3);
+    transition: all 0.3s ease-out;
+}
+
 .btn--medium {
     padding: 8px 20px;
     font-size: 20px;
@@ -34,8 +43,19 @@
     font-size: 20px;
 }
 
+.btn--send {
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
 .btn--medium:hover, .btn--large:hover {
     background: #fff;
     color: #242424;
+    transition: all 0.3s ease-out;
+}
+
+.btn--send:hover {
+    background: blue;
+    color: var(--primary);
     transition: all 0.3s ease-out;
 }

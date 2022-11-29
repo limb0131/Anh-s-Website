@@ -1,0 +1,61 @@
+.contact-form {
+    height: 100%;
+    width: auto;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-container {
+    width: 50.666667%;
+    margin: auto;
+    padding: 2rem;
+    justify-content: center;
+    text-align: start;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.contact-msg {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}   
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 4px;
+    padding: 0.5rem;
+}
+
+.fa-paper-plane {
+    margin-left: 0.3rem;
+}
+
+@media screen and (min-width: 1000px) {
+    .info {
+        position: relative;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+
